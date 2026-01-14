@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Barbie Dream Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span>Barbie Portfolio</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="section active">
+      <div class="home-content">
+        <img src="https://imgur.com/Bo0MKC5.jpeg" alt="Owner's Barbie Style Photo" class="profile-pic">
+        <h1>Welcome to my Barbie World!</h1>
+        <p>Hi! I'm <span class="owner-name">Cheska Jimenez</span>, living life in pink and code. Explore my fabulous portfolio!</p>
+      </div>
+    </section>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate web developer who loves everything pink, sparkly, and creative! With a flair for design and a love for technology, I bring magic to every project I touch. My journey is filled with glitter, code, and endless possibilities.
+      </p>
+      <img src="https://imgur.com/Bo0MKC5.jpg" class="about-img" alt="Barbie accessory">
+    </section>
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li><span>🌸</span> HTML & CSS Glamour</li>
+        <li><span>✨</span> JavaScript Magic</li>
+        <li><span>💅</span> Barbie-worthy UI/UX</li>
+        <li><span>🎀</span> Responsive Design</li>
+      </ul>
+    </section>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send with Sparkle</button>
+      </form>
+      <div id="contact-result"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Made with love by Cheska Jimenez   me | Barbie Dream Portfolio &copy; 2025</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
